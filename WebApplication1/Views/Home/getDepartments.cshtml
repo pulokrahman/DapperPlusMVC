@@ -1,0 +1,9 @@
+﻿@using Infrastructure.Entities
+
+
+ @foreach(Departments Dep in ViewBag.Departments)
+    {
+       <p> @Dep.Id  @Dep.DeptName @Dep.Location </p>
+         
+    }
+

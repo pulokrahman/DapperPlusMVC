@@ -1,0 +1,7 @@
+﻿@using Infrastructure.Entities
+
+ @foreach(Employees e in ViewBag.Employees)
+    {
+       <p> @e.Id  @e.FirstName @e.LastName $@e.Salary @e.DeptId </p>
+         
+    }
